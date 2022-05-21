@@ -20,11 +20,13 @@ body {
     min-height: calc(100vh - 60px);
     justify-content: center;
     padding: 30px 0;
+    width: 100%;
 }
 
 .container {
     border-radius: 7px;
     overflow: hidden;
+    width: 320px;
 }
 
 .header {
@@ -41,6 +43,10 @@ body {
     background: #0A0A0A;
     margin: 0;
     padding: 15px 0;
+}
+
+.info a {
+    text-decoration: none;
 }
 
 .info h1, h2 {
@@ -87,11 +93,16 @@ body {
     align-items: center;
     background: #FFFFFF;
     display: flex;
+    justify-content: space-between;
     padding: 15px 20px;
 }
 
 .link:hover {
     background: #F7F7F7;
+}
+
+.link:hover .arrow {
+    animation: pulse 1s ease-in infinite;
 }
 
 .link-item {
@@ -104,4 +115,26 @@ body {
 
 .link img {
     height: 30px;
+}
+
+.link .arrow-container {
+    height: 15px;
+    padding: 0 9px 0 0;
+    position: relative;
+}
+
+.link .arrow {
+    height: 15px;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+}
+
+@keyframes pulse {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 3px;
+    }
 }

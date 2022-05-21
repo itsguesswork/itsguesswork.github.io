@@ -1,5 +1,8 @@
 <div class="link-item">
-    <a href="{{link}}" class="link" target="_blank">
-        <img src="{{image}}" />
+    <a href="{{link}}" class="link" onclick="fbq('trackCustom', 'Open {{name}}');" target="_blank">
+        <img class="logo" src="{{image}}" />
+        <div class="arrow-container">
+            <img class="arrow" src="images/arrow.svg" />
+        </div>
     </a>
 </div>

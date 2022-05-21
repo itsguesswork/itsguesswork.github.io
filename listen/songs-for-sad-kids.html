@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Songs for Sad Kids</title>
+        <title>Songs for Sad Kids EP</title>
+        <link rel="icon" href="../images/logo.png" />
         <link rel="stylesheet" href="../styles/listen.css" />
+        <meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Meta Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1552396145176477');
+            fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1552396145176477&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
     </head>
     <body>
         <div class="main">
@@ -10,26 +29,38 @@
                 <div class="header">
                     <img class="album" src="images/songs-for-sad-kids.jpg" />
                     <div class="info">
-                        <h1>Songs for Sad Kids</h1>
-                        <h2>Guesswork</h2>
+                        <h1>Songs for Sad Kids EP</h1>
+                        <a href="https://www.instagram.com/itsallguesswork/" target="_blank"><h2>Guesswork</h2></a>
                     </div>
                 </div>
                 <div class="links">
                     <div class="link-item">
-    <a href="https://open.spotify.com/album/5xLsh4vtYgGYXBYsqW1jl5" class="link" target="_blank">
-        <img src="images/spotify.png" />
+    <a href="https://open.spotify.com/album/5xLsh4vtYgGYXBYsqW1jl5" class="link" onclick="fbq('trackCustom', 'Open Spotify');" target="_blank">
+        <img class="logo" src="images/spotify.png" />
+        <div class="arrow-container">
+            <img class="arrow" src="images/arrow.svg" />
+        </div>
     </a>
 </div><div class="link-item">
-    <a href="https://music.apple.com/us/album/songs-for-sad-kids-ep/1619988451" class="link" target="_blank">
-        <img src="images/applemusic.svg" />
+    <a href="https://music.apple.com/us/album/songs-for-sad-kids-ep/1619988451" class="link" onclick="fbq('trackCustom', 'Open Apple Music');" target="_blank">
+        <img class="logo" src="images/applemusic.svg" />
+        <div class="arrow-container">
+            <img class="arrow" src="images/arrow.svg" />
+        </div>
     </a>
 </div><div class="link-item">
-    <a href="https://soundcloud.com/itsguesswork/sets/songs-for-sad-kids" class="link" target="_blank">
-        <img src="images/soundcloud.png" />
+    <a href="https://soundcloud.com/itsguesswork/sets/songs-for-sad-kids" class="link" onclick="fbq('trackCustom', 'Open SoundCloud');" target="_blank">
+        <img class="logo" src="images/soundcloud.png" />
+        <div class="arrow-container">
+            <img class="arrow" src="images/arrow.svg" />
+        </div>
     </a>
 </div><div class="link-item">
-    <a href="https://music.amazon.com/albums/B09Y9FPK9M" class="link" target="_blank">
-        <img src="images/amazonmusic.png" />
+    <a href="https://music.amazon.com/albums/B09Y9FPK9M" class="link" onclick="fbq('trackCustom', 'Open Amazon Music');" target="_blank">
+        <img class="logo" src="images/amazonmusic.png" />
+        <div class="arrow-container">
+            <img class="arrow" src="images/arrow.svg" />
+        </div>
     </a>
 </div>
                 </div>
