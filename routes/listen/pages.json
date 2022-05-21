@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Songs for Sad Kids",
+        "slug": "songs-for-sad-kids",
+        "image": "images/songs-for-sad-kids.jpg",
+        "artist_name": "Guesswork",
+        "links": [
+            {
+                "name": "Spotify",
+                "image": "images/spotify.png",
+                "link": "https://open.spotify.com/album/5xLsh4vtYgGYXBYsqW1jl5"
+            },
+            {
+                "name": "Apple Music",
+                "image": "images/applemusic.svg",
+                "link": "https://music.apple.com/us/album/songs-for-sad-kids-ep/1619988451"
+            },
+            {
+                "name": "SoundCloud",
+                "image": "images/soundcloud.png",
+                "link": "https://soundcloud.com/itsguesswork/sets/songs-for-sad-kids"
+            },
+            {
+                "name": "Amazon Music",
+                "image": "images/amazonmusic.png",
+                "link": "https://music.amazon.com/albums/B09Y9FPK9M"
+            }
+        ]
+    }
+]
